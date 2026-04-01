@@ -1,0 +1,35 @@
+# Model files (large binaries)
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+*.key
+*.pem
+credentials.*
+
+# Output artifacts
+output/
+results/
